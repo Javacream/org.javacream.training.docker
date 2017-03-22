@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>Hello World</title>
+</h:head>
+
+<h:body>
+	<h:form>
+		<h:outputText value="Your Name: " />
+		<p:inputText value="#{helloWorld.name}" />
+		<p:commandButton value="Submit" update="sayHelloId" />
+		<br />
+		<br />
+		<h:outputText id="sayHelloId" value="#{helloWorld.sayHello()}" />
+	</h:form>
+</h:body>
+</html>
