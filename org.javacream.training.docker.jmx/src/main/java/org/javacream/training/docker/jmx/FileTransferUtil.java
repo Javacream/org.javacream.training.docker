@@ -52,7 +52,7 @@ public class FileTransferUtil implements FileTransferUtilMBean {
 				iterations++;
 				File file = new File("/in-dir");
 				String[] fileNames = file.list();
-				System.out.println("IN-DIR: " + Arrays.asList(fileNames));
+				System.out.println("in-dir: " + Arrays.asList(fileNames));
 				File[] files = file.listFiles();
 				for (File f: files){
 					f.delete();

@@ -1,2 +1,2 @@
-FROM org.javacream/org.javacream.docker.image.java.base:1.2
-ADD fileutil-app.jar /java/lib/app.jar
+FROM javacream/basejava:1.1
+ADD demo.jar /java/lib/app.jar
