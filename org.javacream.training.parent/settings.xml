@@ -4,7 +4,7 @@
       <!--This sends everything else to /public -->
       <id>nexus</id>
       <mirrorOf>*</mirrorOf>
-      <url>http://10.28.11.101:8081/repository/maven-public/</url>
+      <url>http://10.4.1.101:8081/repository/maven-public/</url>
     </mirror>
   </mirrors>
   <profiles>
