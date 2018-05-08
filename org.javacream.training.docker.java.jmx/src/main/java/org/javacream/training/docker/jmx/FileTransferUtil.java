@@ -18,11 +18,12 @@ public class FileTransferUtil implements FileTransferUtilMBean {
 
 	private int iterations;
 	private int filesDeleted;
+
 	public int getIterations() {
 		return iterations;
 	}
-	
-	public void reset(){
+
+	public void reset() {
 		iterations = 0;
 		filesDeleted = 0;
 	}
@@ -34,7 +35,7 @@ public class FileTransferUtil implements FileTransferUtilMBean {
 	public static void main(String[] args) {
 		new FileTransferUtil();
 	}
-	
+
 	{
 		MBeanServer server = ManagementFactory.getPlatformMBeanServer();
 		try {
@@ -45,21 +46,25 @@ public class FileTransferUtil implements FileTransferUtilMBean {
 			throw new RuntimeException(e.getMessage());
 		}
 		ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(1);
-		scheduledExecutorService.scheduleAtFixedRate(new Runnable(){
+		scheduledExecutorService.scheduleAtFixedRate(new Runnable() {
 
 			@Override
 			public void run() {
 				iterations++;
-				File file = new File("/in-dir");
-				String[] fileNames = file.list();
-				System.out.println("in-dir: " + Arrays.asList(fileNames));
-				File[] files = file.listFiles();
-				for (File f: files){
-					f.delete();
+				try {
+					File file = new File("/in-dir");
+					String[] fileNames = file.list();
+					System.out.println("in-dir: " + Arrays.asList(fileNames));
+					File[] files = file.listFiles();
+					for (File f : files) {
+						f.delete();
+					}
+					filesDeleted += files.length;
+				} catch (Exception e) {
+					// OK, in-dir does not exist
 				}
-				filesDeleted += files.length;
 			}
-			
+
 		}, 0, 5, TimeUnit.SECONDS);
 	}
 

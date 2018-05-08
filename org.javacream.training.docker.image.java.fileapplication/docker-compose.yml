@@ -11,7 +11,4 @@ services:
     ports:
       - 7778:7777
     volumes:
-      - type: "bind"
-        source: "./root/file-in-dir"
-        target: "/in-dir"
-      
+      - /root/file-in-dir:/in-dir  
