@@ -1,10 +1,9 @@
 FROM openjdk:8
-ADD jolokia-jvm-1.3.7-agent.jar jolokia-agent.jar
-ENV JAVA_MEMORY 256M
-ENV JAVA_GC_LOGFILE /java/log/gc.log
-ENV JAVA_OPTS ""
-ENV JOLOKIA_PORT 7777
-ENV APP_JAR_NAME app.jar
-VOLUME /java/log
-EXPOSE ${JOLOKIA_PORT} 
-ENTRYPOINT java -javaagent:jolokia-agent.jar=port=${JOLOKIA_PORT},host=0.0.0.0 -Xmx${JAVA_MEMORY} -Xms${JAVA_MEMORY} -Xloggc:${JAVA_GC_LOGFILE} ${JAVA_OPTS} -jar /java/lib/${APP_JAR_NAME}
+ENV JAVA_MAX_MEMORY 256M
+ENV JAVA_INITIAL_MEMORY 256M
+ENV JAVA_NEW_MEMORY 128M
+ENV JAVA_JOLOKIA_PORT 7777
+ENV JAVA_MAIN_CLASS NONE
+EXPOSE ${JAVA_JOLOKIA_PORT}
+ADD jolokia-jvm-1.3.7-agent.jar ./jolokia-agent.jar
+ENTRYPOINT java -javaagent:jolokia-agent.jar=port=${JAVA_JOLOKIA_PORT},host=0.0.0.0 -Xmx${JAVA_MAX_MEMORY} -Xmn${JAVA_NEW_MEMORY} -Xms${JAVA_INITIAL_MEMORY} -cp app.jar ${JAVA_MAIN_CLASS} 
