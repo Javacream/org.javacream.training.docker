@@ -18,6 +18,7 @@ public class SimpleApp {
 
 	{
 		System.out.println("Hello Docker from Java!");
+		printMemory();
 		checkScheduling();
 		checkFileIo();
 		checkUrl();
@@ -30,6 +31,15 @@ public class SimpleApp {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+
+	private void printMemory() {
+		Runtime r = Runtime.getRuntime();
+		System.out.println("****         MEMORY");
+		System.out.println("Free Memory: " + r.freeMemory());
+		System.out.println("Total Memory: " + r.totalMemory());
+		System.out.println("Max Memory: " + r.maxMemory());
+		System.out.println("****         MEMORY DONE");
 	}
 
 	private void checkUrl() {
@@ -63,6 +73,7 @@ public class SimpleApp {
 
 			public void run() {
 				System.out.println("Scheduled Message from Java at " + new Date());
+				System.gc();
 			}
 
 		}, 0, 5, TimeUnit.SECONDS);
