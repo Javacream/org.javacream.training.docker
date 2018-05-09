@@ -1,2 +1,2 @@
-FROM javacream/javase:1.0
-ADD org.javacream.training.docker.basic-1.0-SNAPSHOT.jar ./app.jar
+FROM javacream/javabase:1.0
+ADD org.javacream.training.docker.java.basic-1.0-SNAPSHOT.jar ./app.jar

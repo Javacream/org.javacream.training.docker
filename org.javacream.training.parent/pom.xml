@@ -5,6 +5,10 @@
 	<artifactId>org.javacream.training.parent.docker</artifactId>
 	<version>1.0</version>
 	<packaging>pom</packaging>
+	<properties>
+		<repository_base_url>http://10.4.1.101:8081</repository_base_url>
+		<docker.namespace.prefix>javacream</docker.namespace.prefix>	
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -79,14 +83,14 @@
 			<uniqueVersion>false</uniqueVersion>
 			<id>nexus</id>
 			<name>Corporate Repository</name>
-			<url>http://10.28.11.101:8081/repository/maven-releases/</url>
+			<url>${repository_base_url}/repository/maven-releases/</url>
 			<layout>default</layout>
 		</repository>
 		<snapshotRepository>
 			<uniqueVersion>true</uniqueVersion>
 			<id>nexus</id>
 			<name>Corporate Snapshots</name>
-			<url>http://10.28.11.101:8081/repository/maven-snapshots/</url>
+			<url>${repository_base_url}/repository/maven-snapshots/</url>
 			<layout>legacy</layout>
 		</snapshotRepository>
 	</distributionManagement>
