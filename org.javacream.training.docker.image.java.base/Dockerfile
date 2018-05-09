@@ -8,5 +8,5 @@ ENV JAVA_OPTS ""
 ENV JAVA_LIB_DIR /java/lib
 EXPOSE ${JAVA_JOLOKIA_PORT}
 ADD jolokia-jvm-1.3.7-agent.jar ./jolokia-agent.jar
-RUN mkdir ${JAVA_LIB_DIR}
+RUN mkdir -p ${JAVA_LIB_DIR}
 ENTRYPOINT java ${JAVA_OPTS} -javaagent:jolokia-agent.jar=port=${JAVA_JOLOKIA_PORT},host=0.0.0.0 -Xmx${JAVA_MAX_MEMORY} -Xmn${JAVA_NEW_MEMORY} -Xms${JAVA_INITIAL_MEMORY} -cp ${JAVA_LIB_DIR}/app.jar ${JAVA_MAIN_CLASS} 
