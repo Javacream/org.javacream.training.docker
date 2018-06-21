@@ -6,7 +6,7 @@
 	<version>1.0</version>
 	<packaging>pom</packaging>
 	<properties>
-		<repository_base_url>http://10.4.1.101:8081</repository_base_url>
+		<repository_base_url>http://10.12.6.101:8081</repository_base_url>
 		<docker.namespace.prefix>javacream</docker.namespace.prefix>	
 	</properties>
 	<dependencies>
