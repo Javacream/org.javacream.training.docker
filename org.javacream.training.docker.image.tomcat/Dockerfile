@@ -1,4 +1,4 @@
-FROM tomcat:8.5.32-slim
+FROM tomcat:8.5-slim
 RUN rm -r webapps
 RUN mkdir webapps
 RUN mkdir webapps/ROOT
