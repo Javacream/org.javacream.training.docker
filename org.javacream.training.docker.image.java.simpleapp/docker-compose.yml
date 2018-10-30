@@ -1,0 +1,12 @@
+version: "3"
+services:
+  simpleapp:
+    image: javacream/simpleapp:1.0-SNAPSHOT
+    container_name: simpleapp-1.0-SNAPSHOT
+    environment:
+      - JAVA_MAX_MEMORY=256M
+      - JAVA_INITIAL_MEMORY=256M
+      - JAVA_NEW_MEMORY=128M
+      - JAVA_MAIN_CLASS=org.javacream.training.docker.SimpleApp
+    ports:
+      - 7777:7777
