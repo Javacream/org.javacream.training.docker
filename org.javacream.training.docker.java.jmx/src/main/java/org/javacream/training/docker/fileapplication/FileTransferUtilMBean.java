@@ -1,4 +1,4 @@
-package org.javacream.training.docker.jmx;
+package org.javacream.training.docker.fileapplication;
 
 public interface FileTransferUtilMBean {
 

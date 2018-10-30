@@ -1,4 +1,4 @@
-package org.javacream.training.docker.jmx;
+package org.javacream.training.docker.fileapplication;
 
 import java.io.File;
 import java.lang.management.ManagementFactory;
@@ -52,16 +52,16 @@ public class FileTransferUtil implements FileTransferUtilMBean {
 			public void run() {
 				iterations++;
 				try {
-					File file = new File("/in-dir");
+					File file = new File("/input");
 					String[] fileNames = file.list();
-					System.out.println("in-dir: " + Arrays.asList(fileNames));
+					System.out.println("input-directory: " + Arrays.asList(fileNames));
 					File[] files = file.listFiles();
 					for (File f : files) {
 						f.delete();
 					}
 					filesDeleted += files.length;
 				} catch (Exception e) {
-					// OK, in-dir does not exist
+					System.out.println("input-directory not found");
 				}
 			}
 
