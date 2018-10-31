@@ -6,7 +6,7 @@
 	<version>1.0</version>
 	<packaging>pom</packaging>
 	<properties>
-		<repository_base_url>http://10.72.2.55:8081</repository_base_url>
+		<repository_base_url>http://10.28.5.41:8081</repository_base_url>
 		<docker.namespace.prefix>javacream</docker.namespace.prefix>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
