@@ -9,4 +9,21 @@
 		<artifactId>org.javacream.training.docker.parent</artifactId>
 		<version>1.0</version>
 	</parent>
+		<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>org.javacream.training.docker.fileapplication.FileTransferUtil</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	
+	
 </project>
