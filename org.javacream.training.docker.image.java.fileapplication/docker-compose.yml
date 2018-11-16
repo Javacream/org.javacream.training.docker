@@ -1,14 +1,13 @@
 version: "3"
 services:
   fileapp:
-    image: javacream/fileapp:1.0-SNAPSHOT
-    container_name: fileapp-1.0-SNAPSHOT
+    image: javacream/fileapplication:1.0
+    container_name: fileapp-1.0
     environment:
       - JAVA_MAX_MEMORY=256M
       - JAVA_INITIAL_MEMORY=256M
       - JAVA_NEW_MEMORY=128M
-      - JAVA_MAIN_CLASS=org.javacream.training.docker.jmx.FileTransferUtil
     ports:
       - 7778:7777
     volumes:
-      - /root/file-in-dir:/in-dir  
+      - /root/data:/input
