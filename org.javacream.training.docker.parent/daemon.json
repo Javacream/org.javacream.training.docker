@@ -1,0 +1,11 @@
+
+
+{
+  "insecure-registries": [
+    "10.16.4.41:9082",
+    "10.16.4.41:9083"
+  ],
+  "disable-legacy-registry": true
+}
+
+
