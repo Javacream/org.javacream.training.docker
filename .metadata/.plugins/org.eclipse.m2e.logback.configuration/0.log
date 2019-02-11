@@ -1,0 +1,41 @@
+2018-03-04 08:17:54,545 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.javacream.training.docker:org.javacream.training.docker.basic:1.0-SNAPSHOT @ /home/rainer/git/org.javacream.training.docker/org.javacream.training.docker.basic/pom.xml.
+2018-03-04 08:17:55,571 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://localhost:8081/repository/maven-public/org/javacream/training/maven/parent/org.javacream.training.maven.parent.web/1.0/org.javacream.training.maven.parent.web-1.0.pom
+2018-03-04 08:17:56,457 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-03-04 08:17:56,467 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-04 08:17:56,482 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-03-04 08:17:56,484 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-04 08:17:56,680 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.javacream.training.docker:org.javacream.training.docker.env:1.0-SNAPSHOT @ /home/rainer/git/org.javacream.training.docker/org.javacream.training.docker.env/pom.xml.
+2018-03-04 08:17:56,739 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-03-04 08:17:56,748 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-04 08:17:56,749 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-03-04 08:17:56,750 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-04 08:17:57,418 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.javacream.training.docker:org.javacream.training.docker.jmx:1.0-SNAPSHOT @ /home/rainer/git/org.javacream.training.docker/org.javacream.training.docker.jmx/pom.xml.
+2018-03-04 08:17:57,953 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-03-04 08:17:57,962 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-04 08:17:57,965 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-03-04 08:17:57,965 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-04 08:17:58,386 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.javacream.training.docker:org.javacream.training.docker.volumes:1.0-SNAPSHOT @ /home/rainer/git/org.javacream.training.docker/org.javacream.training.docker.volumes/pom.xml.
+2018-03-04 08:17:58,820 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-03-04 08:17:58,823 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-04 08:17:58,827 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-03-04 08:17:58,828 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-04 08:17:59,841 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.javacream.training.docker:org.javacream.training.docker.basic:1.0-SNAPSHOT @ /home/rainer/git/org.javacream.training.docker/org.javacream.training.docker.basic/pom.xml.
+2018-03-04 08:17:59,955 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.javacream.training.docker:org.javacream.training.docker.env:1.0-SNAPSHOT @ /home/rainer/git/org.javacream.training.docker/org.javacream.training.docker.env/pom.xml.
+2018-03-04 08:17:59,988 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.javacream.training.docker:org.javacream.training.docker.jmx:1.0-SNAPSHOT @ /home/rainer/git/org.javacream.training.docker/org.javacream.training.docker.jmx/pom.xml.
+2018-03-04 08:18:00,034 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.javacream.training.docker:org.javacream.training.docker.volumes:1.0-SNAPSHOT @ /home/rainer/git/org.javacream.training.docker/org.javacream.training.docker.volumes/pom.xml.
+2018-03-04 08:18:06,826 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-03-04 08:18:06,829 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-04 08:18:06,837 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-03-04 08:18:06,838 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-04 08:18:07,073 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-03-04 08:18:07,074 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-04 08:18:07,075 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-03-04 08:18:07,076 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-04 08:18:07,243 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-03-04 08:18:07,244 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-04 08:18:07,245 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-03-04 08:18:07,246 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-04 08:18:07,301 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-03-04 08:18:07,302 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-04 08:18:07,303 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-03-04 08:18:07,304 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
