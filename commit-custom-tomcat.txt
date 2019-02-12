@@ -1,0 +1,40 @@
+docker run -it --name tomcat8_container tomcat:8-alpine bash
+
+# In Container bash
+
+cd webapps/
+rm -r docs
+rm -r examples
+rm -r host-manager
+rm -r manager
+cd ROOT
+rm *.*
+echo "Hello from Referent" > index.jsp
+exit
+
+docker commit tomcat8_container custom_tomcat:1.0
+
+docker save -o /raum04/custom_tomcat_committed.tar custom_tomcat:1.0
+
+# take a look at the exported image
+
+docker image list # take a look at hash of custom_tomcat:1.0
+
+docker image rm custom_tomcat:1.0
+
+docker load -i /raum04/custom_tomcat_committed.tar
+
+docker image list # take a look at hash of custom_tomcat:1.0
+
+docker run --rm custom_tomcat:1.0 /usr/local/tomcat/bin/catalina.sh run   
+
+docker commit -c "CMD /usr/local/tomcat/bin/catalina.sh run" tomcat8_container custom_tomcat:1.1
+
+docker run --rm custom_tomcat:1.1
+
+docker image rm custom_tomcat:1.0
+docker image rm custom_tomcat:1.1
+
+
+docker rm tomcat8_container
+

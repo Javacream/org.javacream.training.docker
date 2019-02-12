@@ -1,0 +1,31 @@
+docker run -it --name tomcat8_container tomcat:8-alpine bash
+
+# In Container bash
+
+cd webapps/
+rm -r docs
+rm -r examples
+rm -r host-manager
+rm -r manager
+cd ROOT
+rm *.*
+echo "Hello from Referent" > index.jsp
+exit
+
+
+docker export -o /raum04/custom_tomcat_sawitzki.tar tomcat8_container
+
+docker import /raum04/custom_tomcat_sawitzki.tar custom_tomcat:1.0
+
+# Default Entry Point is /bin/sh -c, so use CMD /usr/local/tomcat/bin/catalina.sh run
+docker run --rm custom_tomcat:1.0 /usr/local/tomcat/bin/catalina.sh run   
+
+docker import --change "CMD /usr/local/tomcat/bin/catalina.sh run" /raum04/custom_tomcat_sawitzki.tar custom_tomcat:1.1
+
+docker run --rm custom_tomcat:1.1
+
+docker image rm custom_tomcat:1.0
+docker image rm custom_tomcat:1.1
+
+docker rm tomcat8_container
+
