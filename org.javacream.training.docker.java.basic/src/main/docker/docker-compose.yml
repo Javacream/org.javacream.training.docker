@@ -1,9 +1,0 @@
-version: "3"
-services:
-  simpleapp:
-    image: javacream/org.javacream.training.docker.java.basic:1.0-SNAPSHOT
-    container_name: simpleapp-1.0-SNAPSHOT
-    environment:
-      - JAVA_MAIN_CLASS=org.javacream.training.docker.SimpleApp
-    ports:
-      - 7777:7777
