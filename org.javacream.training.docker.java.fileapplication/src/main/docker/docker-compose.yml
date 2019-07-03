@@ -1,0 +1,15 @@
+version: "3"
+services:
+  fileapp:
+    image: javacream/polymorphic_java:1.0
+    container_name: fileapp
+    environment:
+      - JAVA_MAX_MEMORY=256M
+      - JAVA_INITIAL_MEMORY=256M
+      - JAVA_NEW_MEMORY=128M
+    ports:
+      - 7778:7777
+      - 8889:8888
+    volumes:
+      - /input:/input
+      - /javaapps:/java/lib
