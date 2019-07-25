@@ -1,0 +1,54 @@
+12:55:37.190 [main] INFO  MavenRepositoryProvisioner - -----------------------------------
+12:55:37.193 [main] INFO  MavenRepositoryProvisioner -  Maven Repository Provisioner      
+12:55:37.193 [main] INFO  MavenRepositoryProvisioner -  simpligility technologies inc.    
+12:55:37.193 [main] INFO  MavenRepositoryProvisioner -  http://www.simpligility.com       
+12:55:37.193 [main] INFO  MavenRepositoryProvisioner - -----------------------------------
+12:55:37.223 [main] INFO  MavenRepositoryProvisioner - Usage: <main class> [options]
+  Options:
+    -a, -artifactCoordinates
+      GroupId/ArtifactId/Version (GAV) coordinates of the desired artifacts 
+      using the syntax (values in [] are optional): 
+      g:a[:extension][:classifier]:v|g:a[:extension][:classifier]:v  e.g. 
+      org.apache.commons:commons-lang3:3.3.2|com.google.inject:guice:jar:no_aop:3.0 
+    -cd, -cacheDirectory
+      Local directory used as a cache between resolving and deploying or as 
+      the source repository that should be transferred.
+      Default: local-cache
+    -ct, -checkTarget
+      Check target repository before deploying, if target GAV pom exists no 
+      deployment will be attempted
+      Default: true
+    -h, -help
+      Display the help information.
+      Default: false
+    -ij, -includeJavadoc
+      Flag to enable/disable download of javadoc artifacts.
+      Default: true
+    -ip, -includeProvidedScope
+      Flag to include/exclude provisioning of dependencies with provided 
+      scope. 
+      Default: false
+    -is, -includeSources
+      Flag to enable/disable download of sources artifacts.
+      Default: true
+    -it, -includeTestScope
+      Flag to include/exclude provisioning of dependencies with test scope.
+      Default: false
+    -p, -password
+      Password for the deployment, if required.
+    -s, -sourceUrl
+      URL for the source repository from which artifacts are resolved, example 
+      for a Nexus install is http://localhost:8081/content/groups/public
+      Default: https://repo1.maven.org/maven2
+  * -t, -targetUrl
+      Folder or URL for the target repository e.g. dist-repo or  
+      http://localhost:8081/content/repositories/release 
+    -u, -username
+      Username for the deployment, if required.
+    -vo, -verifyOnly
+      Verify which artifacts would be deployed only, deployment is skipped and 
+       potential deployments of a second execution are logged.
+      Default: false
+
+12:55:37.223 [main] INFO  MavenRepositoryProvisioner - Exiting: FAILURE 
+Problem parsing configuration.

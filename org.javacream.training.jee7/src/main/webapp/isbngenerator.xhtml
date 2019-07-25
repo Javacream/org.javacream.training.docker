@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+>
+
+<ui:composition template="/layout/layout.xhtml">
+	<ui:define name="title">
+    JEE
+</ui:define>
+	<ui:define name="pageHeader">
+		ISBN Generator
+	</ui:define>
+	<ui:define name="content">
+		<h:form>
+			<h:commandButton value="Generate ISBN" action="#{isbnGeneratorWebBean.next}"></h:commandButton>
+		</h:form>
+		<h:outputText value="#{isbnGeneratorWebBean.generatedIsbn}"></h:outputText>
+	</ui:define>
+</ui:composition>
+</html>

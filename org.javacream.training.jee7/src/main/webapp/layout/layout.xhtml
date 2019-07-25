@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	>
+
+<h:head>
+	<h:outputStylesheet library="css" name="common.css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title><ui:insert name="title">
+			<h:outputText value="Empty title"></h:outputText>
+		</ui:insert></title>
+</h:head>
+
+<h:body>
+
+	<h1 align="center">
+		<ui:insert name="pageHeader" />
+	</h1>
+	<hr />
+	<h:messages />
+	<div align="center">
+		<table class="contentTable">
+			<tr>
+				<td width="30%" id="content-left"><ui:insert
+						name="content-left">
+						<ui:include src="menu.xhtml"></ui:include>
+					</ui:insert></td>
+				<td width="40%" id="content"><ui:insert name="content" /></td>
+				<td width="30%" id="content-right"><ui:insert
+						name="content-right">
+						<ui:include src="news.xhtml"></ui:include>
+					</ui:insert></td>
+			</tr>
+		</table>
+		<hr />
+		<h:panelGroup>
+			<ui:include src="footer.xhtml" />
+		</h:panelGroup>
+	</div>
+</h:body>
+</html>

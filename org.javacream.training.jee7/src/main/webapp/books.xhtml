@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+<ui:composition template="/layout/layout.xhtml">
+	<ui:define name="title">
+    JEE
+</ui:define>
+	<ui:define name="pageHeader">
+		Find Book
+	</ui:define>
+	<ui:define name="content">
+		<h:form>
+			<h:inputText value="#{booksServiceWebBean.isbn}"></h:inputText>
+			<h:commandButton value="Search"
+				action="#{booksServiceWebBean.search}"></h:commandButton>
+		</h:form>
+		<h:outputText value="#{booksServiceWebBean.book}"></h:outputText>
+	</ui:define>
+</ui:composition>
+</html>
