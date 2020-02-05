@@ -1,0 +1,11 @@
+version: "3"
+services:
+  simpleapp:
+    image: javacream/simpleapp:1.0
+    container_name: simpleapp-1.0
+    environment:
+      - JAVA_MAX_MEMORY=256M
+      - JAVA_INITIAL_MEMORY=256M
+      - JAVA_NEW_MEMORY=128M
+    ports:
+      - 7654:7654

@@ -1,0 +1,9 @@
+version: "3"
+services:
+  mysql:
+    image: 10.28.8.186:8082/mysql:5.6
+    container_name: mysql-5.6
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret_pwd
+    ports:
+      - 3306:3306
