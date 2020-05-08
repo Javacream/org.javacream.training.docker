@@ -4,12 +4,11 @@ Some Java Projects using Docker
 ## Timetable
 
 * Each day is split in 4  Sessions, 90' each. Approx. 45' teaching/presentation followed by 30' training labs and 15' discussion/chat
-* Training should start at 9:00 local time (8:00 in Germany) and will end approx. 16:15. So we have two 15' coffee breaks and lunch 45' 
-* Trainer will prepare a public repository on GitHub to provide you asap with his samples/whiteboard script. Additionally you will receive credentials so every participant may push his/her sources to separated branches. So it is easy to discuss your approaches/solutions/problems online.
+* Training should start at 9:00 local time and will end approx. 16:15. So we have two 15' coffee breaks and lunch 45' 
 
 ## Live Presentation
 
-https://docs.google.com/presentation/d/1gNEEKjWHIDKaN6zjQsViSuoRRr19JTtmHlwMtFbywSg/edit?usp=sharing
+https://docs.google.com/presentation/d/1pgDR2frXwINWg6lpDy8U69bC5kM8gpx_nmZi9Ghlquo/edit?usp=sharing
 
 ## Topics
 
