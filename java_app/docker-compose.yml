@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+   simplejava:
+     build: .
+     environment:
+       JAVA_MAX_MEMORY: 128M
+       JAVA_INITIAL_MEMORY: 64M
+
