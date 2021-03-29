@@ -21,11 +21,11 @@
 
 * https://rdweb.integrata-cegos.de/rdweb/webclient
 * Anmelden mit student_m060X@integrata-cegos.de, X=zugeteilte Nummer, Passwort wird im Kurs mitgeteilt
-  * A = 1
-  * B = 3
-  * C = 4
-  * D = 5
-  * E = 6
+  * JS = 1
+  * JW = 3
+  * R = 4
+  * MH = 5
+  * OV = 6
 * Resource die Linux-Maschine wählen
   * Anmelden dann mit "root", Passwort wird im Kurs mitgeteilt
 * Resource Windows
