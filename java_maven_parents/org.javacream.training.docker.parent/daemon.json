@@ -1,0 +1,12 @@
+
+
+{
+  "insecure-registries": [
+    "10.8.1.41:8082",
+    "10.8.1.41:8083",
+    "10.8.1.41:8084"
+	],
+  "disable-legacy-registry": true
+}
+
+
