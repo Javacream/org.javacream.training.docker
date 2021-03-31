@@ -1,0 +1,14 @@
+{
+  "insecure-registries": [
+   "localhost:8082", 
+   "localhost:8083", 
+   "localhost:8084",
+   "h2908727.stratoserver.net:8084",
+   "h2908727.stratoserver.net:8083",
+   "h2908727.stratoserver.net:8082"
+
+  ],
+  "disable-legacy-registry": true
+}
+
+
