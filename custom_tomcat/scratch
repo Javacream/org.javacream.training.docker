@@ -1,0 +1,8 @@
+mkdir ROOT
+cd ROOT
+echo CustomTomcat > index.html
+cd ..
+docker create --name custom_tomcat_work_container -it tomcat:7 /bin/bash
+docker cp ROOT/index.html custom_tomcat_work_container:/usr/local/tomcat/webapps/ROOT/index.html
+docker commit -c CMD ["catalina.sh", "run"] custom_tomcat_work_container  javacream/tomcat
+docker run --rm -p 8080:8080 javacream/tomcat
