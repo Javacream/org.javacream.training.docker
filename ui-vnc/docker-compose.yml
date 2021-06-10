@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+    firefox-ui-vnc:
+        image: javacream/firefox-ui-vnc:latest
+        ports: 
+            - 5900:5900
