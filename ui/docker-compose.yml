@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+    firefox-ui:
+        image: javacream/firefox:latest
+        environment:
+            - DISPLAY=${DISPLAY}
+            # use xauth list to get the MAGIC_COOKIE hexvalue for your system
+            - HEXKEY=da45e7bed6d858569a7f48068820e4ec
+        volumes:
+            - /tmp/.X11-unix:/tmp/.X11-unix
+        network_mode: host
