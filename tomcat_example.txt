@@ -1,0 +1,7 @@
+mkdir mounts
+mkdir mounts/webapps
+mkdir mounts/logs
+mkdir mounts/logs/tomcat7
+mkdir mounts/logs/tomcat8
+docker create --name tomcat8 -p 9080:8080 --mount type=bind,source=/home/rainer/docker_training/mounts/webapps,target=/usr/local/tomcat/webapps --mount type=bind,source=/home/rainer/docker_training/mounts/logs/tomcat8,target=/usr/local/tomcat/logs tomcat:8
+docker create --name tomcat7 -p 9081:8080 --mount type=bind,source=/home/rainer/docker_training/mounts/webapps,target=/usr/local/tomcat/webapps --mount type=bind,source=/home/rainer/docker_training/mounts/logs/tomcat7,target=/usr/local/tomcat/logs tomcat:7
