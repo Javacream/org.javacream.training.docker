@@ -1,0 +1,3 @@
+FROM tomcat@sha256:9ac86d435387421c839a4456a34a55fffc230701f1b40563409e589650b556f9
+RUN mkdir webapps/ROOT
+COPY index.html webapps/ROOT
