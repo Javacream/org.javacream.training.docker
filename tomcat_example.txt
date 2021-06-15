@@ -3,5 +3,18 @@ mkdir mounts/webapps
 mkdir mounts/logs
 mkdir mounts/logs/tomcat7
 mkdir mounts/logs/tomcat8
+#Host Mounts for webapps and logs
 docker create --name tomcat8 -p 9080:8080 --mount type=bind,source=/home/rainer/docker_training/mounts/webapps,target=/usr/local/tomcat/webapps --mount type=bind,source=/home/rainer/docker_training/mounts/logs/tomcat8,target=/usr/local/tomcat/logs tomcat:8
 docker create --name tomcat7 -p 9081:8080 --mount type=bind,source=/home/rainer/docker_training/mounts/webapps,target=/usr/local/tomcat/webapps --mount type=bind,source=/home/rainer/docker_training/mounts/logs/tomcat7,target=/usr/local/tomcat/logs tomcat:7
+#Host Mounts for webapps, volumes for logs
+docker volume create tomcat7_logs
+docker volume create tomcat8_logs
+docker create --name tomcat8 -p 9080:8080 --mount type=bind,source=/home/rainer/docker_training/mounts/webapps,target=/usr/local/tomcat/webapps -v tomcat8_logs:/usr/local/tomcat/logs tomcat:8
+docker create --name tomcat7 -p 9081:8080 --mount type=bind,source=/home/rainer/docker_training/mounts/webapps,target=/usr/local/tomcat/webapps -v tomcat7_logs:/usr/local/tomcat/logs tomcat:7
+docker inspect -f '{{.Mounts}}' tomcat7
+#Host Mounts for webapps, volumes for logs, Host Mount for conf
+#tomcat will NOT start
+docker create --name tomcat7_conf -p 9081:8080 --mount type=bind,source=/home/rainer/docker_training/mounts/webapps,target=/usr/local/tomcat/webapps --mount type=bind,source=/home/rainer/docker_training/mounts/conf,target=/usr/local/tomcat/conf -v tomcat7_logs:/usr/local/tomcat/logs tomcat:7
+#Host Mounts for webapps, volumes for logs, conf
+#tomcat will start, empty volumes will be filled with files from container!
+docker create --name tomcat7_conf -p 9081:8080 --mount type=bind,source=/home/rainer/docker_training/mounts/webapps,target=/usr/local/tomcat/webapps -v tomcat7_conf:/usr/local/tomcat/conf -v tomcat7_logs:/usr/local/tomcat/logs tomcat:7
