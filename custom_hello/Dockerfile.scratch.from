@@ -1,0 +1,3 @@
+FROM scratch
+COPY --from=hello-world@sha256:9f6ad537c5132bcce57f7a0a20e317228d382c3cd61edae14650eec68b2b345c /hello .
+CMD ["/hello"]
