@@ -5,10 +5,10 @@
 
 * Beispiele
   * https://github.com/Javacream/org.javacream.training.docker
-    *  Branch
+    *  Branch integrata_19.7.2021
     
 * Digitales Flipchart
-  * 
+  * https://docs.google.com/presentation/d/1-sYNAabKr4lWzzctMtfnZZstuokZUNudN2BKzlNOBgw/edit?usp=sharing
 
 * Seminarzeiten
   * 12 Unterrichtseinheiten mit jeweils 90 Minuten
@@ -16,4 +16,14 @@
   * Mittagspause 45’ (12:15-13:00)
   * Kaffeepausen 10:30 - 10:45 und 14:30 - 14:45
 
+## RDWeb
 
+* Gateway
+  * https://rdweb.integrata-cegos.de/rdweb/webclient/ 
+
+* (1) RDWeb_User (2) RDWeb_PWD (3) Resource (4) User (5) PWD
+* | student_s0602@integrata-cegos.de | (...)_s0602 | linux_s0602 | root | (...)
+* | student_s0603@integrata-cegos.de | (...)_s0603 | linux_s0603 | root | (...) 
+* | student_s0604@integrata-cegos.de | (...)_s0604 | linux_s0604 | root | (...)
+* | student_s0605@integrata-cegos.de | (...)_s0605 | linux_s0605 | root | (...)
+* | student_s0606@integrata-cegos.de | (...)_s0606 | linux_s0606 | root | (...)
