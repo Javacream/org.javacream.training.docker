@@ -12,14 +12,17 @@
 
 * Seminarzeiten
   * 12 Unterrichtseinheiten mit jeweils 90 Minuten
-  * jeweils 9:00 - 16:15
+  * Mo.: 9:00 - 16:15
+  * Di.: 8:30 - 16:15, verlängerte Mittagspause 11:00 - 13:00 auf Grund eines unverschiebbaren Teilnehmer-Termins
+  * Mi.: 8:30 - 16:15
   * Mittagspause 45’ (12:15-13:00)
   * Kaffeepausen 10:30 - 10:45 und 14:30 - 14:45
 
 ## RDWeb
 
 * Gateway
-  * https://rdweb.integrata-cegos.de/rdweb/webclient/ 
+  * (https://rdweb.integrata-cegos.de/rdweb/webclient/)
+  * https://rdweb.integrata-cegos.de/RDWeb/rdweb
 
 * (1) RDWeb_User (2) RDWeb_PWD (3) Resource (4) User (5) PWD
 * | student_s0602@integrata-cegos.de | (...)_s0602 | linux_s0602 | root | (...)
