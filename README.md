@@ -11,12 +11,10 @@
   * https://docs.google.com/presentation/d/1-sYNAabKr4lWzzctMtfnZZstuokZUNudN2BKzlNOBgw/edit?usp=sharing
 
 * Seminarzeiten
-  * 12 Unterrichtseinheiten mit jeweils 90 Minuten
-  * Mo.: 9:00 - 16:15
-  * Di.: 8:30 - 16:15, verlängerte Mittagspause 11:00 - 13:00 auf Grund eines unverschiebbaren Teilnehmer-Termins
-  * Mi.: 8:30 - 16:15
-  * Mittagspause 45’ (12:15-13:00)
-  * Kaffeepausen 10:30 - 10:45 und 14:30 - 14:45
+  * 6 Stunden netto pro Tag
+  * Mo.: 9:00 - 10:45, 11:30 - 12:45, 13:30 - 15:00, 15:15 - 16:45
+  * Di.: 8:30 - 10:30, 12:30 - 14:30, 14:45 - 16:45
+  * Mi.: 9:00 - 10:30, 10:45 - 12:15, 13:00 - 14:45, 14:30 - 16:15
 
 ## RDWeb
 
