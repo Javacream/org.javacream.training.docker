@@ -1,0 +1,7 @@
+{
+ "insecure-registries": [
+   "h2908727.stratoserver.net:8082", 
+   "h2908727.stratoserver.net:8083", 
+   "h2908727.stratoserver.net:8084"], 
+ "disable-legacy-registry": true 
+}
