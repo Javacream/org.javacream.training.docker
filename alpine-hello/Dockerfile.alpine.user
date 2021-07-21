@@ -1,0 +1,6 @@
+FROM alpine
+RUN adduser --no-create-home --disabled-password javacream
+USER javacream
+COPY ./hello /
+CMD ["/hello"]
+
