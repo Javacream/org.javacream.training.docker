@@ -1,0 +1,6 @@
+version: '3.3'
+
+services:
+   python_app:
+     image: javacream/python_app:1.0
+
