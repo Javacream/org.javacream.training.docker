@@ -1,0 +1,8 @@
+version: '3.3'
+
+services:
+   books_webservice:
+     image: javacream/books_webservice:1.0
+     ports:
+       - 9095:8080
+
