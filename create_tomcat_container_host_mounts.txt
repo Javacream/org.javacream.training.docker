@@ -1,0 +1,3 @@
+docker create --name tomcat8 -p 9090:8080 --mount type=bind,source=/home/rainersawitzki/_training/docker/logs/tomcat8,target=/usr/local/tomcat/logs --mount type=bind,source=/home/rainersawitzki/_training/docker/webapps,target=/usr/local/tomcat/webapps tomcat:8-alpine 
+
+
