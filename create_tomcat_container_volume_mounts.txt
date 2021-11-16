@@ -1,0 +1,3 @@
+docker create --name tomcat8_volumes -p 9190:8080 -v tomcat8_logs:/usr/local/tomcat/logs -v tomcat_webapps:/usr/local/tomcat/webapps tomcat:8-alpine 
+
+
