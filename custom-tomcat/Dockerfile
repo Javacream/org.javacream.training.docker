@@ -1,9 +1,5 @@
-FROM tomcat:8-alpine
-RUN rm -rf /usr/local/tomcat/webapps/*
+FROM h2908727.stratoserver.net:8083/javacream/tomcat_base:1.0
+USER root
 RUN mkdir /usr/local/tomcat/webapps/app
-RUN adduser --disabled-password --gecos "" tomcat
 COPY index.html /usr/local/tomcat/webapps/app
-VOLUME /usr/local/tomcat/webapps
-VOLUME /usr/local/tomcat/logs
 USER tomcat
-
