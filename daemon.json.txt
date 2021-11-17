@@ -1,0 +1,2 @@
+Die daemon.json bitte nach /etc/docker kopieren
+Anschliessend die Docker Engine neu starten mit service docker restart
