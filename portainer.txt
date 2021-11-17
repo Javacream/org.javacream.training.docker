@@ -1,0 +1,4 @@
+docker run -d -p 8000:8000 -p 9443:9443 --name portainer -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+
+Zugriff dann über localhost:9443
+    Vorsicht: Der Portainer benutzt ein self-signed Zertifikat, also im Browser eine Ausnahme hinzufügen...
