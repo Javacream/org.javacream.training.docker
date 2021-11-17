@@ -5,6 +5,6 @@ services:
      image: portainer/portainer-ce
      ports:
        - 9443:9443
-       - 8000:8000
+       - 8001:8000
      volumes:
        - /var/run/docker.sock:/var/run/docker.sock
