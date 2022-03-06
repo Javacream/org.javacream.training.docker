@@ -5,10 +5,10 @@
 
 * Beispiele
   * https://github.com/Javacream/org.javacream.training.docker
-    *  Branch
+    *  Branch integrata_7.3.2022
     
 * Digitales Flipchart
-  * 
+  * https://docs.google.com/presentation/d/1iusJ0gyRBFWfaRGslcU_wU25JCGRVl1qFlb8N8FPKWA/edit?usp=sharing
 
 * Seminarzeiten
   * 12 Unterrichtseinheiten mit jeweils 90 Minuten
