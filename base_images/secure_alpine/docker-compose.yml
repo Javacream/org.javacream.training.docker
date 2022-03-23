@@ -1,0 +1,6 @@
+version: '3'
+services:
+  base :
+    build: 
+      context: .
+    image: javacream/base:1.0

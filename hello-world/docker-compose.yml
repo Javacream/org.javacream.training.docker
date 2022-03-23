@@ -3,4 +3,4 @@ services:
   hello:
     build: 
       context: .
-    image: javacream/hello:1.0
+    image: h2908727.stratoserver.net:8083/javacream/hello:1.1
