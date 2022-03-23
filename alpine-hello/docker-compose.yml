@@ -1,0 +1,6 @@
+version: '3'
+services:
+  hello:
+    build: 
+      context: .
+    image: javacream/alpine-hello:1.2
