@@ -12,8 +12,12 @@
 
 * Seminarzeiten
   * 12 Unterrichtseinheiten mit jeweils 90 Minuten
-  * jeweils 9:00 - 16:15
+  * Mo., Mi. jeweils 9:00 - 16:15
+  * Di: 8:00 - 15:00 mit Pausen 10:00 - 10:15 und 12:15 - 13:00
   * Mittagspause 45’ (12:15-13:00)
   * Kaffeepausen 10:30 - 10:45 und 14:30 - 14:45
+  
+* Teams-Session (auch für Dienstag und MittwocH
+  * https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODNkNWQyZjctYzkzZC00ZWYyLWFkYzAtOTQzMDk2NzVmNDhm%40thread.v2/0?context=%7b%22Tid%22%3a%22118093ad-1a8d-4c22-a599-6a95c50fd7f1%22%2c%22Oid%22%3a%2277bb6a89-9347-4606-b4e5-4fda9a8e0113%22%7d
 
 
