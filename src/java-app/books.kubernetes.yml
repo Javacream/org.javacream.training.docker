@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: javacream-books
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: javacream-pod
+  template:
+    metadata:
+      labels:
+        app: javacream-pod
+    spec:
+      containers:
+        - name: javacream-books
+          image: "javacream/books:1.0"
