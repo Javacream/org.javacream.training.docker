@@ -1,0 +1,7 @@
+
+docker volume create tomcat_logs
+docker create --name tomcat -p 8080:8080 -v tomcat_logs:/usr/local/tomcat/logs tomcat:8
+
+
+mkdir tomcat_logs
+docker create --name tomcat -p 8080:8080 --mount type=bind,source="$(pwd)"/tomcat_logs,target=/usr/local/tomcat/logs tomcat:8

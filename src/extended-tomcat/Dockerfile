@@ -1,0 +1,1 @@
+FROM javacream/tomcat:latest
