@@ -1,0 +1,7 @@
+version: '3.3'
+
+services:
+    booksserver:
+        image: javacream/books:1.0
+        ports:
+            - 9099:8080
