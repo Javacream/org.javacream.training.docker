@@ -1,15 +1,13 @@
 # org.javacream.training.docker
 
-## Durchführung des Seminars vom 19.-21.5.2021
-
 * Referent: Rainer Sawitzki, eMail: training@rainer-sawitzki.de
 
 * Beispiele
   * https://github.com/Javacream/org.javacream.training.docker
-    *  Branch vector_19.5.2021
+    *  Branch vector_29.9.2022
     
 * Digitales Flipchart
-  * https://docs.google.com/presentation/d/1GmtNxtc0S8phV6acvG5nFoJLjsXOkuNaTfMtZwZTNaU/edit?usp=sharing
+  * https://docs.google.com/presentation/d/1TWy-gPv_BnRio-qj5DHDyL6LQ6RArck_qkBd5y2UT1o/edit?usp=sharing
 
 * Seminarzeiten
   * 12 Unterrichtseinheiten mit jeweils 90 Minuten
