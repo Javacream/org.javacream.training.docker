@@ -1,6 +1,8 @@
 * docker pull tomcat:8
 * docker create --name tomcat8 tomcat:8
-* docker inspect tomcat8 
+* docker inspect tomcat8
+  * CHECK: Suchen in der Ausgabekonsole nach Cmd
+* docker inspect --format='{{.Config.Cmd}}' tomcat8
   * CHECK: [catalina.sh, run]
 * docker export -o tomcat8.tar tomcat8
   * CHECK /usr/local/tomcat/logs ist leer
