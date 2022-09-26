@@ -4,7 +4,7 @@
 
 * Beispiele
   * https://github.com/Javacream/org.javacream.training.docker
-    *  Branch vector_29.9.2022
+    *  Branch vector_26.9.2022
     
 * Digitales Flipchart
   * https://docs.google.com/presentation/d/1TWy-gPv_BnRio-qj5DHDyL6LQ6RArck_qkBd5y2UT1o/edit?usp=sharing
