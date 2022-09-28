@@ -1,0 +1,6 @@
+version: '3'
+services:
+  secure-alpine:
+    build: 
+      context: .
+    image: javacream/alpine:1.1
