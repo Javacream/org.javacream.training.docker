@@ -1,0 +1,6 @@
+version: '3'
+services:
+  java-monitored:
+    build: 
+      context: .
+    image: javacream/java-monitored:1.0

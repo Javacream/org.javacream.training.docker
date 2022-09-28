@@ -1,0 +1,8 @@
+version: '3'
+services:
+  books:
+    build: 
+      context: .
+    image: javacream/books:1.0
+    ports:
+      - "9095:8080"

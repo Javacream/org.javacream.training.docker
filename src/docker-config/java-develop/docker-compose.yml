@@ -1,0 +1,12 @@
+version: '3'
+services:
+  java-monitored:
+    build: 
+      context: .
+    image: javacream/java-dev:1.0
+    volumes:
+      - /java-app:/java/lib
+    ports:
+      - "7777:7777"
+      - "8888:8888"
+      - "9094:8080"
