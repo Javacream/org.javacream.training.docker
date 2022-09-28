@@ -5,4 +5,5 @@ services:
       context: .
     image: javacream/books:1.0
     ports:
-      - "9095:8080"
+      - 7777:7777
+      - 9095:8080
