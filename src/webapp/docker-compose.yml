@@ -1,0 +1,8 @@
+version: '3'
+services:
+  tomcat:
+    build: 
+      context: .
+    image: javacream/tomcat:3.0
+    ports:
+      - "9092:8080"
