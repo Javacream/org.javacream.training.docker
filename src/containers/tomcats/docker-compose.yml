@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  tomcat8:
+    image: tomcat:8
+    ports:
+      - "9090:8080"
+    volumes:
+      - /home/rainersawitzki/_training/docker/tomcat/logs/tomcat8:/usr/local/tomcat/logs
+      - /home/rainersawitzki/_training/docker/tomcat/webapps:/usr/local/tomcat/webapps
+  tomcat7:
+    image: tomcat:7
+    ports:
+      - "9091:8080"
+    volumes:
+      - /home/rainersawitzki/_training/docker/tomcat/logs/tomcat7:/usr/local/tomcat/logs
+      - /home/rainersawitzki/_training/docker/tomcat/webapps:/usr/local/tomcat/webapps
