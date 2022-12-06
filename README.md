@@ -1,15 +1,12 @@
 # org.javacream.training.docker
 
 ## Durchführung des Seminars 
-* Referent: Rainer Sawitzki, eMail: training@rainer-sawitzki.de
+* Referent: Rainer Sawitzki, eMail: training@rainer-sawitzki.de, [Javacream](http://javacream.org)
 
-* Beispiele
-  * https://github.com/Javacream/org.javacream.training.docker
-    *  Branch
+* [Beispiele](https://github.com/Javacream/org.javacream.training.docker/tree/integrata_7.12.2022)
     
-* Digitales Flipchart
-  * 
-
+* [Digitales Flipchart](https://docs.google.com/presentation/d/1b8tVGPwlqNoVCXPz0vvCJSGvGDRhE6vY7BAAGFqqj1o/edit?usp=sharing)
+  
 * Seminarzeiten
   * 12 Unterrichtseinheiten mit jeweils 90 Minuten
   * jeweils 9:00 - 16:15
