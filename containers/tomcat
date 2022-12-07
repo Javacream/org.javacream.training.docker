@@ -1,0 +1,1 @@
+docker create --mount type=bind,source=/home/sl01/_training/container_in_detail/webapps,target=/usr/local/tomcat/webapps -p 9090:8080 --name tomcat8 tomcat:8
