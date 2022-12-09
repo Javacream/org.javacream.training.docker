@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+   booksserver:
+     image: javacream/booksserver:1.0
+     ports:
+       - 9095:8080
+       - 7777:7777
+
