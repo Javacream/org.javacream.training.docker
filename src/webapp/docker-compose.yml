@@ -1,0 +1,5 @@
+services:
+    server:
+        image: javacream/webapp:2.0
+        ports:
+            - 9093:8080
