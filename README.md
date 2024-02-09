@@ -1,7 +1,7 @@
 # org.javacream.training.docker
 
 * Referent: Rainer Sawitzki, eMail: rainer.sawitzki@gmail.com
-
+* [Aufzeichnungen](https://my.hidrive.com/share/ovshe4l87o)
 * [Digitales Flipchart](https://docs.google.com/presentation/d/1p2-pdJh7PeiTnQQicBFnpMVDstbRSu8eMlOPsDN4dWo/edit?usp=sharing)
 
 * Seminarzeiten
