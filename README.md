@@ -10,6 +10,6 @@
   * 9:00-9:15 "come together", Umgebung vorbereiten, Q&A, was machen wir heute?
   * 16:00 - 16:15 "tear down", Review, Q&A
   * Mittagspause 45’ (12:15-13:00)
-  * Kaffeepausen 10:30 - 10:45 und 14:30 - 14:45
+  * Kaffeepausen 10:30 - 10:45 (Freitag 10:00 - 10:15) und 14:30 - 14:45
 
 
