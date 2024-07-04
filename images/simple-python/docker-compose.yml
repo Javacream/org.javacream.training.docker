@@ -1,0 +1,4 @@
+services:
+  python-app:
+    build: .
+    image: javacream/python:1.0
