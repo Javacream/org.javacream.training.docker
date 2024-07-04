@@ -1,0 +1,5 @@
+services:
+  javacream_nginx:
+    image: javacream/nginx:1.0
+    ports:
+      - 8082:80
