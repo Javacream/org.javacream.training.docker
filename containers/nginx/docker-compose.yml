@@ -1,7 +1,13 @@
 services:
-  webserver:
-    image: nginx
+  ng1:
+    image: nginx:1.27
     ports:
       - 8080:80
+    volumes:
+      - /web:/usr/share/nginx/html
+  ng2:
+    image: nginx:1.26
+    ports:
+      - 8081:80
     volumes:
       - /web:/usr/share/nginx/html
