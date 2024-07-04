@@ -1,0 +1,4 @@
+services:
+  hello:
+    build: .
+    image: javacream/hello:1.1.1
