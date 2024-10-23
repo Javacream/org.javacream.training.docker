@@ -1,7 +1,7 @@
 1) Deskmate User 2) Deskmate-Password 3) Ubuntu-User 4) Ubuntu-Kennwort
-tn050.raum01@cegos.de 33032_tn050 sl01 sl01
-tn051.raum01@cegos.de 33032_tn051 sl01 sl01
-tn052.raum01@cegos.de 33032_tn052 sl01 sl01
+tn050.raum01@cegos.de 33032_tn050 sl01 sl01 Bazyli
+tn051.raum01@cegos.de 33032_tn051 sl01 sl01 Läseke
+tn052.raum01@cegos.de 33032_tn052 sl01 sl01 Neubauer
 tn053.raum01@cegos.de 33032_tn053 sl01 sl01
 
 Deskmate-Link:
